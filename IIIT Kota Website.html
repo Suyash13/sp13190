@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Institute of Information Technology, Kota</title>
+    <style>
+        #image{
+            width: 200px;
+            padding-left: 30px;
+            padding-top: 15px;
+            display: inline-block;
+        }
+        .top{
+            background-color: rgb(252, 232, 50);
+            height: 240px;
+            box-sizing: border-box;
+            border-radius: 15px;
+            margin: 10px;
+          
+        }
+        .header{
+            padding-left: 400px;
+            position: relative;
+            top: -145px;
+            left: -100px;
+            font-size: 250%; 
+            font-weight: bold;            
+        }
+        #subheader{
+            font-size: 80%;
+
+        }
+        .search{
+            position: absolute;
+            right: -90px;
+            top: -76px;
+        }
+       
+        .navbar{
+            background-color: rgb(255, 0, 0);
+            font-size: 140%;
+            border-radius: 14px;
+            height: 50px;     
+            text-align: center;
+            }
+            .navbar ul{
+                overflow: auto;
+                margin: auto;
+                padding-top: 10px;
+            }
+            .navbar li{
+                list-style: none;
+                float: left; 
+
+            }
+            .navbar li a{
+                color: rgb(248, 248, 248);
+                text-decoration: none;
+                padding: 0px 35px;
+            }
+            .ul3:hover{
+                background-color: black;
+                border-radius: 9px;
+            }
+            #about
+            {
+                margin: 15px;
+                padding-top: 25px;
+            }
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .about2{
+                margin: 10px;
+                padding: 7px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 120%;
+            }
+            #bdspc{
+                margin: 15px;
+                padding-top: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 200%;
+                font-weight: bold;
+            }
+            .bdpsc{
+                margin: 6px;
+            margin-bottom: 2px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 120%;
+                padding-top: 30px;
+                padding-bottom: 20px;
+               
+            }
+            .img1{
+              padding-left: 305px;
+            }
+            .img2{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;
+                padding-top: 20px;
+            }
+            .h1{
+                margin: 15px;
+                padding-top: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 200%;
+                font-weight: bold;
+                text-align: center;
+            }
+            .video {
+            position: relative;
+            left: 300px;
+            margin: 25px;
+        }
+        .video_intro {
+            text-align: center;
+            font-family: 'Lobster', cursive;
+        }
+        .h3{
+            margin: 15px;
+                padding-top: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 200%;
+                font-weight: bold;
+                text-align: center;
+        }
+        .v1{
+            padding-left: 350px;
+            margin: 50px;
+        }
+        .v2{
+            padding-left: 350px;
+            margin: 50px;
+            padding-top: 10px;
+        }
+        .h12{
+            margin: 15px;
+             padding-top: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 200%;
+                font-weight: bold;
+                text-align: center;
+        }
+        table,th,td{
+            padding: 4px;
+            background-color: rgb(132, 233, 149);
+            border: solid 2px rgb(214, 255, 100);
+            text-align: center;
+            margin: auto;
+            width: 800px;
+            height: 60px;
+            font-weight: bold;
+            font-size: 120%;
+        }
+        tr:hover{
+            background-color: white;
+        }
+        .seat{
+            margin: 25px;
+        }
+        .s1{
+            margin: 55px;
+            padding-top: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 200%;
+            font-weight: bold;                
+            text-align: center;
+        }
+        .u1{
+            padding-top: 70px;
+            text-align: center;
+            background-color: yellow;
+            height: 140px;
+            border-radius: 65px;
+            width: 1300px;
+        }
+        #l1{
+            position: relative;
+            top: -90px;
+            left: -80px;
+        }
+        #l2{
+            position: relative;
+            top: -55px;
+        }
+        #l3{
+            position: relative;
+            top: -70px;
+            left: 60px;
+        }
+        #l4{
+            position: relative;
+            top: -80px;
+            left: 140px;
+        }
+        .detailsh{
+            margin: 55px;
+            padding-top: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 200%;
+            font-weight: bold;                
+            text-align: center;
+        }
+        .details{
+            margin: 6px;
+            margin-bottom: 2px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 120%;
+                padding-top: 0px;
+                text-align: center;
+                background-color: red;
+                border-radius: 30px;
+                height: 320px;
+                padding-bottom: 10px;
+        }
+        .copy{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-align: center;
+            background-color: yellowgreen;
+            margin: 10px;
+            box-sizing: border-box;
+            padding: 15px;
+            border-radius: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="top">
+      <div><img src="IIIT-_Kota_Logo_white.png" id="image"></div>  
+        <div class="header" >
+            Indian Institute of Information Technology, Kota
+            <div id="subheader">
+                (An Institute of National Importance under an Act of Parliament)
+                <div class="search">
+                    <input type="text" title="Search this website" placeholder="Search this website" >
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <div class="navbar">
+    <nav>
+        <ul>
+            <li><a href="#" class="ul3">Home</a></li>
+            <li><a href="#" class="ul3">Admission</a></li>
+            <li><a href="#" class="ul3">People</a></li>
+            <li><a href="#" class="ul3">Academics</a></li>
+            <li><a href="#" class="ul3">Facilities</a></li>
+            <li><a href="#" class="ul3">Student Affairs</a></li>
+            <li><a href="#" class="ul3">Placement</a></li>
+            <li><a href="#" class="ul3">Contact Us</a></li>
+        </ul>
+    </nav>
+</div>
+</div>
+<div id="about1">
+    <h1 id="about">About:</h1>
+    <p class="about2">Indian Institute of Information Technology, Kota (IIIT, Kota) is an institute of national importance. IIIT Kota is a joint venture of the Ministry of Human Resource Development (MHRD) Govt. of India and Govt. of Rajasthan with Industry Partners in Public-Private-Partnership (PPP) mode. IIIT, Kota was established in 2013. Currently the institute is mentored by Malaviya National Institute of Technology Jaipur (MNIT Jaipur) and situated at MNIT Jaipur. The main site of IIIT, Kota shall be constructed at Ranpur near Kota on 100.37 acres of land made available by the Govt. of Rajasthan. The institute is governed by the eminent personalities of the Government, Industry and Academia. Currently we offer B.Tech in the discipline of Computer Science & Engineering and Electronics & Communication Engineering only.
+        </p>
+</div>
+<div class="img1">
+    <img src="https://lh3.googleusercontent.com/proxy/PBBmYwJSMQjgB9aHn-szbJtcDd3lKfffKKoH1jw-9xtnzjSxux8YQI0xpw3FvSh_Ymqw7u-L49uXBvpgPl6KgaYKc14QYQZe" alt="Image not available" width="750" height="500">
+</div>
+<div>
+    <div id="bdspc">Building Status at Permanent Campus</div>
+    <p class="bdpsc">
+        As of now, IIIT Kota does not have its own building. It is being operated from the premises of the mentor institute (MNIT Jaipur). However the boundary wall along with tree plantation has been completed in its permanent campus at Ranpur near Kota. Further, the director office, conference hall, accounts and establishment block, academic block with adequate number of lecture theatres, labs and faculty cabins, seminar hall with capacity of more than 200 persons, computer center, library, workshop and store, boys and girls hostels, guest house, director's and staff residencies, transit accommodation and other development work such as rain water harvesting structure, sewerage treatment plant, overhead tank are to be taken up in the phased manner on receipt of required funds from the central and state governments for which the matter is under vigorous pursuance with the authorities concerned.
+    </p>
+</div>
+<div class="img2">
+    <img src="http://www.iiitkota.ac.in/images/campus/area.jpg" alt="Not Available" id="img2" width="800" height="500">
+</div>
+<div class="intro">
+    <div class="h1">
+        Introduction video of our Institute:-
+    </div>
+    <iframe class="video" width="650" height="315" src="https://www.youtube.com/embed/S-gd74RksAk"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
+    <div class="latest">
+        <div class="h3">
+            Latest Events:
+        </div>
+        <div class="v1">
+            <iframe width="550" height="315" src="https://www.youtube.com/embed/XcUUtrzPqPw" title="YouTube video player" frameborder="1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="v2">
+            <iframe width="550" height="315" src="https://www.youtube.com/embed/6LKG2XKqdLM" title="YouTube video player" frameborder="1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>    
+    <div class="seat">
+        <div class="h12">
+            Seat Matrix (2020-21)
+        </div>
+        <table class="Seat_Matrix">
+            <thead>
+                <th>BRANCH</th>
+                <th>CATEGORY</th>
+                <th>SEATS</th>
+            </tr> <tbody>
+            <tr>
+                <td>COMPUTER SCIENCE AND ENGINEERING</td>
+                <td>GENDER-NEUTRAL</td>
+                <td>144</td> 
+            </tr>
+            <tr>
+                <td>COMPUTER SCIENCE AND ENGINEERING</td>
+                <td>FEMALE-ONLY</td>
+                <td>0</td> 
+            </tr>
+            <tr>
+                <td>ELECTRONICS AND COMMUNICATION ENGINEERING</td>
+                <td>GENDER-NEUTRAL</td>
+                <td>71</td> 
+            </tr>
+            <tr>
+                <td>ELECTRONICS AND COMMUNICATION ENGINEERING</td>
+                <td>FEMALE-ONLY</td>
+                <td>0</td> 
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <div class="social">
+        <div class="s1">
+            Social Media handles of the Institute
+        </div>
+        <div class="u1">
+            
+                <a href="https://www.instagram.com/iiitkotaoffice/" target="_blank"><img src="https://i.pinimg.com/originals/d2/e5/3e/d2e53ea31ec15e6a8129008563713de5.png" alt="Not available" width="10%" id="l1"></a> 
+                <a href="https://twitter.com/IIITKotaOffice?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" id="l2"><img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="Not available" width="15%"></a>
+                <a href="https://www.linkedin.com/school/iiitkota/" target="_blank" id="l3"><img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="NA" width="13%"></a>
+                <a href="https://www.youtube.com/channel/UCMvxTDPPnyuEPSGgjOv6HBQ" target="_blank" id="l4"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/YouTube_social_white_circle_%282017%29.svg/300px-YouTube_social_white_circle_%282017%29.svg.png" alt="NA" width="12%"></a>
+            </ul>
+        </div>
+    </div>
+    <div class="details">
+        <div class="detailsh">
+            Administration and Address Details
+        </div>
+        <p>Administration - 0141-271 5071</p> 
+        <p>Fax - 0141-2715071</p> 
+        <p>Email-ID of the institute: office@iiitkota.ac.in</p> 
+        <p>Location - Indian Institute of Information Technology, Kota, MNIT Campus,JLN Marg, Jaipur-302017</p> 
+    </div>
+    <div class="copy">
+        Copyright &copy; 2021- All Rights Reserved www.iiitkota.ac.in
+    </div>
+</body>
+</html>
